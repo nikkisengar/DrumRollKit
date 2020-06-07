@@ -1,0 +1,103 @@
+/* All Font families */
+
+/* font-family: 'Architects Daughter', cursive;
+font-family: 'Bad Script', cursive;
+font-family: 'Fredericka the Great', cursive;
+font-family: 'Handlee', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Knewave', cursive;
+font-family: 'Love Ya Like A Sister', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Nanum Pen Script', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Rancho', cursive;
+font-family: 'Rock Salt', cursive;
+font-family: 'Sacramento', cursive; */
+
+
+/* Body section common */
+body {
+  text-align: center;
+}
+
+/* Heading section */
+.big-heading {
+  font-size: 7rem;
+  text-align: center;
+  padding-top: 2%;
+  font-family: 'Fredericka the Great', cursive;
+  color: #FAC42F;
+}
+
+/* drum-roll.html --> Heading image */
+.drum-heading-image {
+  width: 20%;
+}
+
+/* landing-page.html --> drum roll button --> navigate to drum-roll.html */
+.drum-roll-btn {
+  text-align: center;
+  padding-top: 8%;
+  font-family: 'Knewave', cursive;
+}
+
+
+/* drum-roll.html --> drum images button with sound section */
+.set {
+  margin: 8% auto;
+}
+
+.drum {
+  /* outline: none; */
+  font-size: 5rem;
+  font-family: 'Bad Script', cursive;
+  /* line-height: 2; */
+  font-weight: 900;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 10px;
+  /* display: inline-block; */
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+}
+
+.w {
+  background-image: url('../images/tom1.png');
+}
+
+.a {
+  background-image: url('../images/tom2.png');
+}
+
+.s {
+  background-image: url('../images/tom3.png');
+}
+
+.d {
+  background-image: url('../images/tom4.png');
+}
+
+.j {
+  background-image: url('../images/snare.png');
+}
+
+.k {
+  background-image: url('../images/crash.png');
+}
+
+.l {
+  background-image: url('../images/kick.png');
+}
+
+/* footer section */
+#footer {
+  text-align: center;
+  padding-top: 7%;
+}
+
+#footer,#drum-footer p{
+  font-family: 'Patrick Hand', cursive;
+  font-size: 1.7rem;
+}
