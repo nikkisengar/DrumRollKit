@@ -51,7 +51,7 @@ function makeSound(key) {
 
   switch (key) {
     case 'w':
-      new Audio('sounds/tom-1.mp3').play();
+      new Audio('../sounds/tom-1.mp3').play();
       break;
     case 'a':
       new Audio('../sounds/tom-2.mp3').play();
