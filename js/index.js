@@ -35,7 +35,7 @@ var noOfDrumButtons = document.querySelectorAll('.drum').length;
 // onClick button make sound option
 for (var i = 0; i < noOfDrumButtons; i++)
   document.querySelectorAll('.drum')[i].addEventListener('click', function () {
-    this.style.color = 'white';
+    this.style.color = '#5cb85c';
     var btnInnerHTML = this.innerHTML;
     makeSound(btnInnerHTML);
   });
