@@ -38,11 +38,13 @@ for (var i = 0; i < noOfDrumButtons; i++)
     this.style.color = '#5cb85c';
     var btnInnerHTML = this.innerHTML;
     makeSound(btnInnerHTML);
+    btnAnimation(btnInnerHTML);
   });
 
 // OnKeyPress make sound option
 document.addEventListener('keypress', function () {
     makeSound(event.key);
+    btnAnimation(event.key);
   });
 
 // makeSound() function which detect the key press or
@@ -74,6 +76,17 @@ function makeSound(key) {
     default: console.log(key);
 
   }
+}
+
+function btnAnimation(keyPressed) {
+  var activeBtn = document.querySelector('.' + keyPressed);
+  activeBtn.classList.add('pressed');
+
+  setTimeout(
+    function () {
+      activeBtn.classList.remove('pressed');
+    }, 100
+  );
 }
 
 // document.querySelector('.set').addEventListener('keyup', function (event) {
